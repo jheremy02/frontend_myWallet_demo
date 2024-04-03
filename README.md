@@ -1,8 +1,22 @@
-# React + Vite
+# Frontend MyWallet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+MyWalletApp es una aplicación web que desarrollé desde cero, este repo es del frontend construido como SPA con Vite y React. Está diseñado para brindar a los usuarios una herramienta para registrar sus finanzas personales de forma interactiva.
+## stack
+- React js
+- Vite
+- React Table
+- React Hook Form
+- Tailwindcss
+- Redux Toolkit
+  
+## Try
+- git clone
+- npm install
+- npm run dev
+- 
+## Note
+agregar un archivo .env para la variable global
+```
+VITE_API_BASE_URL=
+```
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
