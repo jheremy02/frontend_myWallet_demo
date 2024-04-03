@@ -1,0 +1,3 @@
+export const getAccountsSelector=state=>state.accountsMoney.accountsMoneyList
+export const isLoadingAccountSelector=state=>state.accountsMoney.isLoading
+export const accountMoneySelectedSelector=state=>state.accountsMoney.accountMoneySelected
